@@ -1,0 +1,15 @@
+[package]
+name = "bm1397-ll"
+authors = ["Georges Palauqui <georges.palauqui@gptechinno.com>"]
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/GPTechinno/bm1397-rs"
+license = "MIT"
+description = "Low level driver for the Antminer BM1397 SHA-256 miner asic."
+readme = "README.md"
+keywords = ["uart", "driver", "embedded-hal-driver", "BM1397", "Antminer"]
+categories = ["embedded", "hardware-support", "no-std"]
+homepage = "https://github.com/GPTechinno/bm1397-rs"
+
+[dependencies]
+defmt = { version = "0.3", optional = true }
